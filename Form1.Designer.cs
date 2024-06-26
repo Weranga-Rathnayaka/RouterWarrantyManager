@@ -88,7 +88,7 @@
             this.lblSN.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblSN.Location = new System.Drawing.Point(30, 33);
             this.lblSN.Name = "lblSN";
-            this.lblSN.Size = new System.Drawing.Size(103, 19);
+            this.lblSN.Size = new System.Drawing.Size(111, 19);
             this.lblSN.TabIndex = 5;
             this.lblSN.Text = "Serial Number:";
             // 
@@ -98,7 +98,7 @@
             this.lblCustomerName.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblCustomerName.Location = new System.Drawing.Point(30, 63);
             this.lblCustomerName.Name = "lblCustomerName";
-            this.lblCustomerName.Size = new System.Drawing.Size(117, 19);
+            this.lblCustomerName.Size = new System.Drawing.Size(121, 19);
             this.lblCustomerName.TabIndex = 6;
             this.lblCustomerName.Text = "Customer Name:";
             // 
@@ -108,7 +108,7 @@
             this.lblCustomerEmail.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblCustomerEmail.Location = new System.Drawing.Point(30, 93);
             this.lblCustomerEmail.Name = "lblCustomerEmail";
-            this.lblCustomerEmail.Size = new System.Drawing.Size(112, 19);
+            this.lblCustomerEmail.Size = new System.Drawing.Size(117, 19);
             this.lblCustomerEmail.TabIndex = 7;
             this.lblCustomerEmail.Text = "Customer Email:";
             // 
@@ -134,7 +134,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(400, 300);
             this.Controls.Add(this.pictureBoxOutOfWarranty);
             this.Controls.Add(this.lblStatus);
@@ -146,10 +145,11 @@
             this.Controls.Add(this.txtCustomerEmail);
             this.Controls.Add(this.txtCustomerName);
             this.Controls.Add(this.txtSN);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Router Warranty Manager";
+            this.Resizable = false;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOutOfWarranty)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

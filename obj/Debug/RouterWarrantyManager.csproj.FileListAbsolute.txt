@@ -19,3 +19,6 @@ C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\obj\Debu
 C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\obj\Debug\RouterWarrantyManager.Form1.resources
 C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\bin\Debug\Images\Correct.png
 C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\bin\Debug\Images\incorrect.png
+C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\bin\Debug\MetroFramework.dll
+C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\weran\source\repos\RouterWarrantyManager\RouterWarrantyManager\obj\Debug\RouterWarrantyManager.Splash.resources

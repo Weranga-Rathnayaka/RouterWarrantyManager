@@ -3,20 +3,32 @@ using System.Data.SQLite;
 using System.Net.Mail;
 using System.Net;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace RouterWarrantyManager
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         private string dbConnectionString = "Data Source=warranty.db;Version=3;";
 
         public Form1()
         {
+            Thread t = new Thread(new ThreadStart(Lording));
+            t.Start();
             InitializeComponent();
+            for (int i = 0; i < 500; i++)
+                Thread.Sleep(10);
+            t.Abort();
             this.StartPosition = FormStartPosition.CenterScreen; // Add this line
             CreateDatabase();
             //pictureBoxWarranty.Image = null;
             pictureBoxOutOfWarranty.Image = null;
+        }
+
+        void Lording()
+        {
+            Splash sp = new Splash();
+            Application.Run(sp);
         }
 
         private void CreateDatabase()
